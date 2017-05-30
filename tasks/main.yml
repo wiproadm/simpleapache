@@ -1,4 +1,4 @@
 ---
 # tasks file for simplehttpd
 - name: Install apache2
-  yum: name=nginx state=present
+  yum: name=apache2 state=present
