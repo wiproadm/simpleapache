@@ -1,4 +1,4 @@
 ---
 # tasks file for simplehttpd
-- name: Install apache2
+-name: Install apache2
   apt: name=nginx state=latest
