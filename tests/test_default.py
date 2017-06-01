@@ -5,5 +5,5 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
 
 
 def test_hosts_file(Package):
-    p = Package('mysql-server')
+    p = Package('php5')
     assert p.is_installed
