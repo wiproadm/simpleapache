@@ -1,4 +1,4 @@
 ---
 # tasks file for simplehttpd
 - name: Install MySQL
-  apt: name=mysql-server state=latest update_cache=yes
+  apt: name=mysql-server state=present update_cache=yes
