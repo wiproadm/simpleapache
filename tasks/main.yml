@@ -2,6 +2,8 @@
 # tasks file for simplehttpd
 - name: Install apache2
   apt: name=apache2 state=present
+- name: Install MySQL
+  apt: name=mysql-server state=latest update_cache=yes
 - name: Install PHP5
   apt: name=php7.0 state=present update_cache=yes
 - name: Install PHP5-MySQL
